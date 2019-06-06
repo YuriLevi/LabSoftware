@@ -1,0 +1,14 @@
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\bin\Debug\netcoreapp2.2\ProvedorDeServicos.deps.json
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\bin\Debug\netcoreapp2.2\ProvedorDeServicos.runtimeconfig.json
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\bin\Debug\netcoreapp2.2\ProvedorDeServicos.runtimeconfig.dev.json
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\bin\Debug\netcoreapp2.2\ProvedorDeServicos.dll
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.csprojAssemblyReference.cache
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.csproj.CoreCompileInputs.cache
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.RazorAssemblyInfo.cache
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.RazorAssemblyInfo.cs
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.AssemblyInfoInputs.cache
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.AssemblyInfo.cs
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.RazorTargetAssemblyInfo.cache
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\bin\Debug\netcoreapp2.2\ProvedorDeServicos.pdb
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.dll
+C:\Users\yuril\source\repos\ProvedorDeServicos\ProvedorDeServicos\obj\Debug\netcoreapp2.2\ProvedorDeServicos.pdb
