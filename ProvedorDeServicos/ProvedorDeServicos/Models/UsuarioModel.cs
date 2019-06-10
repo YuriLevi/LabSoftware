@@ -16,6 +16,8 @@ namespace ProvedorDeServicos.Models
 
         public string FullName { get; set; }
 
-        
+        public string Tipo { get; set; }
+
+
     }
 }

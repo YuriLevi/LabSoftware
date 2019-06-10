@@ -1,18 +1,22 @@
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand text-white">Oferta/Demanda Projeto</a>
+<nav class="navbar navbar-expand-lg navbar-dark  bg-dark">
+    <a class="navbar-brand text-white">ServiRapp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>  
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(Página atual)</span></a>
+        <a class="nav-item nav-link" href="#">Minha Conta</a>
+        <a class="nav-item nav-link" href="#">Cadastrar Alertas</a>
+        <a class="nav-item nav-link disabled" href="#">Meus Alertas</a>
+      </div>
+    </div>
     <button class="btn btn-danger my-2 my-sm-0" (click)="onLogout()">Logout</button>
-  </nav>
-  
- <div class="card m-5" style="width:18rem" *ngIf="userDetails">
-  <ul class="list-group">
-    <li class="list-group-item"><strong>Usuario : </strong>{{userDetails.userName}}</li>
-    <li class="list-group-item"><strong>Email : </strong>{{userDetails.Email}}</li>   
-    <li class="list-group-item"><strong>Tipo :  </strong> </li>  
-  </ul>
-</div>
+</nav>
 
 <div class="card m-5" style="width:18rem">
     <ul class="list-group">  
   <button class="btn btn-danger my-2 my-sm-0">Cadastrar Oferta/Solicitacao</button>
     </ul> 
 </div>
+

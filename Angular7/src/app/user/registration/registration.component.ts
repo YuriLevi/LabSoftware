@@ -1,5 +1,6 @@
+import { UserService } from './../../shared/user.service';
 import { Component, OnInit } from '@angular/core';
-import { UserService } from 'src/app/shared/user.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-registration',
@@ -8,27 +9,27 @@ import { UserService } from 'src/app/shared/user.service';
 })
 export class RegistrationComponent implements OnInit {
 
-  constructor(public service:UserService) { }
+  constructor(public service: UserService, private toastr: ToastrService) { }
 
   ngOnInit() {
+    this.service.formModel.reset();
   }
 
-  //(traduzir tb)verificar motivo de não receber o retorno do submit, sem poder exibir toaster nem outra msg, porém o post funciona
   onSubmit() {
     this.service.register().subscribe(
       (res: any) => {
-        if (res.succeeded) {
+        if (res.success) {
           this.service.formModel.reset();
-          //this.toastr.success('New user created!', 'Registration successful.');
+          this.toastr.success('New user created!', 'Registration successful.');
         } else {
           res.errors.forEach(element => {
             switch (element.code) {
               case 'DuplicateUserName':
-                //this.toastr.error('Username is already taken','Registration failed.');
+                this.toastr.error('Username is already taken','Registration failed.');
                 break;
 
               default:
-              //this.toastr.error(element.description,'Registration failed.');
+              this.toastr.error(element.description,'Registration failed.');
                 break;
             }
           });
@@ -38,5 +39,6 @@ export class RegistrationComponent implements OnInit {
         console.log(err);
       }
     );
-}
+  }
+
 }

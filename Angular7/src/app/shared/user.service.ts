@@ -1,3 +1,4 @@
+
 import { Injectable } from '@angular/core';
 import { FormBuilder, Validators, FormGroup } from '@angular/forms';
 import { HttpClient, HttpHeaders } from "@angular/common/http";
@@ -14,6 +15,7 @@ export class UserService {
     UserName: ['', Validators.required],
     Email: ['', Validators.email],
     Nome: [''],
+    Tipo: [''],
     Passwords: this.fb.group({
       Password: ['', [Validators.required, Validators.minLength(4)]],
       ConfirmPassword: ['', Validators.required]
@@ -37,19 +39,18 @@ export class UserService {
     var body = {
       UserName: this.formModel.value.UserName,
       Email: this.formModel.value.Email,
-      Nome: this.formModel.value.Nome,
+      Nome: this.formModel.value.FullName,
+      Tipo: this.formModel.value.Tipo,
       Password: this.formModel.value.Passwords.Password
     };
     return this.http.post(this.BaseURI + '/Usuario/Register', body);
   }
 
-  login(formData){
+  login(formData) {
     return this.http.post(this.BaseURI + '/Usuario/Login', formData);
   }
 
   getUserProfile() {
     return this.http.get(this.BaseURI + '/UserProfile');
   }
-
 }
-

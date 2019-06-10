@@ -14,7 +14,7 @@ namespace ProvedorDeServicos.Models
 
         [Required]
         [Column(TypeName = "char(1)")]
-        public int Tipo { get; set; }
+        public String Tipo { get; set; }
 
         [Column(TypeName = "nvarchar(150)")]
         public int FullName { get; set; }

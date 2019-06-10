@@ -38,7 +38,8 @@ namespace ProvedorDeServicos.Controllers
             var usuario = new Usuario()
             {
                 UserName = model.UserName,
-                Email = model.Email
+                Email = model.Email,
+                Tipo = model.Tipo,
             };
 
             try
