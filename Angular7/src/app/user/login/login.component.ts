@@ -21,8 +21,11 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit(form: NgForm) {
-    this.service.login(form.value).subscribe(
+    this.service.login(form.value).subscribe(    
+      
       (res: any) => {
+        console.log('Teste');
+
         localStorage.setItem('token', res.token);
         this.router.navigateByUrl('/home');
       },

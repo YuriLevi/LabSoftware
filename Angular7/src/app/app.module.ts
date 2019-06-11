@@ -28,9 +28,7 @@ import { AuthInterceptor } from './auth/auth.interceptor';
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot({
-      progressBar: true
-    }),
+    ToastrModule.forRoot(),
     FormsModule
   ],
   providers: [UserService, {
