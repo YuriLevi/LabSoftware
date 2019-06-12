@@ -1,12 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+
 body{
-    background-color: #04c582;;
+    background-color: #569756;
 }
 
+
 input.form-control,input.form-control:focus{
-    background-color: #636b7b;
-    color: #fff;
-    border: 1px solid #636b7b;
+    background-color: #fff;
+    color: #0C0C0C;
+    border: 1px solid #D1D3D1;
 
 }
 
@@ -16,7 +20,7 @@ input.form-control:focus{
 
 button[type=submit].btn{
     border-radius: 20px;
-    background-color: #04c582;
+    background-color: #569756;
     color: #fff;
 }
 
@@ -74,7 +78,7 @@ div.form-group.required>label:first-child:after{
     display:inline-block;
     padding: 30px 40px 10px 40px;
     cursor: pointer;
-    color: #545d6a;
+    color: #FAFAFA;
     border-bottom: 2px solid #545d6a;
   }
 
@@ -93,3 +97,4 @@ div.form-group.required>label:first-child:after{
     text-transform: uppercase;
     font-size: 0.9rem;
 }
+
